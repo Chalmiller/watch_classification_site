@@ -3,19 +3,19 @@ require "watir"
 
 
 BRANDS = [
-    "iwc",
-    "rolex",
-    "audemarspiguet",
-    "breitling",
-    "jaegerlecoultre",
-    "omega",
-    "panerai",
-    "patekphilippe",
-    "cartier",
-    "gucci",
-    "seiko",
-    "movado",
-    "zenith"
+  'rolex',
+  'audemarspiguet',
+  'breitling',
+  'iwc',
+  'jaegerlecoultre',
+  'omega',
+  'panerai',
+  'patekphilippe',
+  'cartier',
+  'gucci',
+  'seiko',
+  'movado',
+  'zenith'
 ]
 
 browser = Watir::Browser.new(:chrome)
